@@ -1,0 +1,139 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:lightseagreen;  
+    font-family:'sans-serif';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #28334AFF;  
+        border-radius: 15px ;
+        box-shadow: 0.7;
+}
+.reg{
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #28334AFF;  
+        border-radius: 15px ;  
+}
+.contact{
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #28334AFF;  
+        border-radius: 15px ;  
+    
+}
+h2{  
+    text-align: center;  
+    color: black;  
+    padding: 20px;  
+}  
+label{  
+    color: wheat;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+#query{
+    width: 300px;  
+    height: 100px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+}
+#fname{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+}
+#lname{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+}
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+    cursor: pointer;
+    float: left;
+}
+#csub{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+    cursor: pointer;
+    float: left;
+}
+#regb{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+    cursor: pointer;
+}
+#mail{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+#profession{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{    
+    text-decoration: none;
+    color: #08ffd1;
+    cursor: pointer;
+}
+#fpwd{
+    float: right;
+    color: #08ffd1;
+    cursor: pointer;
+    
+}
