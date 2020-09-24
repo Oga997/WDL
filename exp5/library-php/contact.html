@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRm2VveDlUqzUbrNooutHi8NTVDvR-gYw30UQ&usqp=CAU" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+</head>
+<script>
+    function valid(){
+        var f_name=document.forms["contact"]["fname"];
+        var l_name=document.forms["contact"]["lname"];
+        var e_mail=document.forms["contact"]["mail"];
+        var qry=document.forms["contact"]["query"];
+        
+        if (f_name.value == "")                                  
+        { 
+            window.alert("Please enter your first name.");
+            f_name.focus(); 
+            return false; 
+        }
+        if(l_name.value=="")
+        {
+            window.alert("please enter your last name");
+            l_name.focus();
+            return false;
+        }
+        if(e_mail.value=="")
+        {
+            window.alert("Invalid mail");
+            e_mail.focus();
+            return false;
+        }
+        if(qry.value=="")
+        {
+            window.alert("enter query");
+            qry.focus();
+            return false;
+        }
+    }
+    
+</script>
+<body>
+
+<center><h1>Contact us</h1></center>
+<div class="contact">
+<form name="contact" action="contact.html" onsubmit="valid()" method="post">
+     <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+    <br>
+    <label for="email">Enter Email</label>
+    <input type="email" id="mail" name="email" placeholder="Your mail..">
+    <br><br>
+    <label for="query">Your issue</label>
+    <input type="text" id="query" name="query" placeholder="Write something..">
+    <br><br>
+    <center><input id="csub" type="submit"></center>
+    </form>
+    </div>
+    
+    </body>
+</html>

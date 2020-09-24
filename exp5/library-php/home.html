@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+<head>
+<title>Library Management System</title>
+<!--<link rel = "icon" href ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRm2VveDlUqzUbrNooutHi8NTVDvR-gYw30UQ&usqp=CAU" type = "image/x-icon">--> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+<style>
+body{
+        background-color:ghostwhite;  
+    }
+h1{
+        margin-top: auto;
+        padding-bottom: 10px;
+        font-family: sans-serif;
+        text-align: center;
+    }
+h2{
+    font-family: cursive;
+}
+.navb {
+  overflow: hidden;
+  top: 0;
+  position: absolute;    
+}
+.regg {
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 35px;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 17px;
+}
+    .regg:hover{
+        color: black;
+    }
+
+.navb a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  top: 0;
+}
+
+.navb a:hover {
+  color: black;
+}
+
+.search-container input[type=text]{
+padding: 6px;
+margin-top: 0px;
+margin-right: 16px;
+font-size: 17px;
+}
+.search-container button[type=button]{
+padding: 6px;
+margin-top: 0px;
+margin-right: 16px;
+border: none;
+font-size: 17px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  border-top: 6px solid lightseagreen;
+  position:static;
+  left: 30%;
+  margin-top: 6px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.gbtn{
+ border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;        
+}
+.gbtn:hover{
+  opacity: 0.7;
+}
+.main{
+  padding: 50px;
+  background-color:#339999;
+  color: white;
+    }
+.foo{
+    bottom: 0;
+    background-color:#339999;
+    width: 100%;
+    height: 10;
+}
+.foo a{
+text-decoration: none;
+color: #f2f2f2;
+font-size: 20px;
+}
+.foo a:hover{
+    color: black;
+}
+.dot{
+    list-style-type: circle;
+}
+  
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+</style>    
+<body>
+<div class="main">
+<div class="navb">
+  <h2><a class="active" href="home.html">Home</a>
+  <a href="login.php">Login</a></h2>
+</div>
+  <h2><a class="regg" href="reg.php">Not a member? Register here</a></h2>
+
+<center><h1>Library Management System</h1>
+  <div class="search-container">
+      <input type="text" placeholder="Search books.." name="search" >
+              <button type="button">Search</button>
+  </div>
+    </center>
+    </div>
+<hr>
+<br>
+<center>
+<div class="card">
+<img src="biog.png" alt="biog" style="width: 100px">    
+<h2>Biography </h2>
+<p class="title">It's a detailed description of a person's life.It involves more than just the basic facts that happened in author's life</p>
+<p><a href="biog.html"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="tech.png" alt="biog" style="width: 100px">    
+<h2>Technical-related </h2>
+<p class="title">It involves the information and data collected by our Scholars in Technical world.</p>
+<p><a href="tech.html"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="engg.png" alt="biog" style="width: 100px">    
+<h2>Engineering </h2>
+<p class="title">It consist books of different streams,i.e Computer,Mechanical,Electrical,Civil</p>
+<p><a href="engg.html"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="cmc.png" alt="biog" style="width: 100px">    
+<h2>Comic </h2>
+<p class="title">It is a publication that consists of comics art in the form of sequential juxtaposed panels that represent individual scenes.</p>
+<p><a href="tech.html"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+</center>
+<center>
+<div class="card"><br>
+<img src="phil.png" alt="biog" style="width: 100px">    
+<h2>Philosophy</h2>
+<p class="title">The book which can guide you to the study of general and fundamental problem solving about existence, knowledge, values, reason</p>
+<p><a href="biog.html"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="sc-sci.png" alt="biog" style="width: 100px">    
+<h2>Social Science</h2>
+<p class="title">Social science is commonly used as an umbrella term to refer to a plurality of fields outside of the natural sciences. These includes some fields like archaeology, criminology, economics,political science,etc.</p>
+<p><a href="tech.html"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="sci.png" alt="biog" style="width: 100px">    
+<h2>Science </h2>
+<p class="title">It is a work of nonfiction, usually written by a scientist or researcher which are usually written for a wide audience presumed to have a general education rather than a specifically scientific training.</p>
+<p><a href="engg.html"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="lit.png" alt="biog" style="width: 100px">    
+<h2>Literatue </h2>
+<p class="title">Literatue are more commonly and narrowly refers to writings specifically considered to be an art form, especially prose fiction, drama, and poetry.</p>
+<p><a href="tech.html"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+    
+</center>
+
+
+<div class="foo">
+<ul class="dot">
+<li><h2> <a href="abt_us.html">About</a></h2></li>
+<li><h2><a href="contact.html">Contact</a></h2></li>
+</ul>
+<center>
+<a style="color: white" href="#" class="fa fa-facebook"></a>
+<a style="color: white" href="#" class="fa fa-twitter"></a>
+<a style="color: white" href="#" class="fa fa-google"></a>
+<a style="color: white" href="#" class="fa fa-linkedin"></a>
+<a style="color: white" href="#" class="fa fa-youtube"></a>
+</center>
+</div>
+
+</body>
+    
+</html>
