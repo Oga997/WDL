@@ -1,8 +1,8 @@
 <?php
  //print_r(PDO::getAvailableDrivers());
 	$servername = "localhost";
-	$username = "oga";
-	$password = "darkoga123";
+	$username = "###";
+	$password = "";
 	$database="library";
 	
 	$conn=new mysqli($servername,$username,$password,$database);
