@@ -11,7 +11,7 @@ $type="";
 //$pimg="";
 $errors = array(); 
 
-$db = mysqli_connect('localhost', 'oga', 'darkoga123', 'library');
+$db = mysqli_connect('localhost', '##', '', 'library');
 
 if (isset($_POST['reg_user'])) {
 
