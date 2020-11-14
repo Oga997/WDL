@@ -1,0 +1,95 @@
+<html>
+<body>
+<!DOCTYPE marksheet SYSTEM "marksheet.dtd">
+<!DOCTYPE marksheet SYSTEM "marksheet.xml">
+<header>
+        <h1> SMART GRADING SYSTEM</h1>
+        <nav>
+            <ul class="nav">
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="about.html">About Us</a> </li>
+                    <li><a href="register.html">Register</a> </li>
+                    <li><a href="login.html">Login</a> </li>
+                    <li><a href="contact.html">Contact Us</a> </li>
+            </ul>
+        </nav>
+</header>
+<main>
+        <section>
+            <h2> STUDENT MARKSHEET</h2>
+            <article class="column2">
+                <div class="stud">
+                    <fieldset>
+                        <legend>STUDENT INFORMATION</legend>
+                       
+                       <table>
+                           <tr>
+                               <td>Name: <input type="text" id="name"></td>
+                               <td>Last Name: <input type="text" id="lname"></td>
+                           </tr>
+                           <tr>
+                               <td>Institute Name: <input type="text" id="insname"></td>
+                               <td>Batch: <input type="text" id="batch"></td>
+                           </tr>
+                       </table>
+                    </fieldset>
+                    
+                    <fieldset>
+                            <legend>SUBJECT MARKS</legend>
+                           
+                           <table>
+                               
+                                <tr>
+                                   <td>CN: <input type="text" id="cn">Out of 100</td>
+                                   <td>TCS: <input type="text" id="tcs">Out of 100</td>
+                                   <td>DBMS: <input type="text" id="dbms">Out of 100</td>
+                                </tr>
+                                <tr></tr>
+                                <tr>
+                                    <td>ILOC: <input type="text" id="iloc">Out of 100</td>
+                                    <td>WDL: <input type="text" id="wdl">Out of 50</td>
+                                    <td>BCE: <input type="text" id="bce">Out of 50</td>
+                                </tr>
+                               <tr>
+                                   <td colspan="2">
+                                       <button type="button" onclick="myMarks()">Submit</button>
+                                    </td>
+                                   <td><button type="reset">Reset</button></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+            </article>
+            <article class="column2">
+                    <table border="1px solid" width="500px">
+
+                            <th colspan="3">Result</th>
+                            <img src="img/Uom.png" width="800px" height="150px"><tr>
+
+                                    <td colspan="2">Name: <span id="tname"></span></td>
+                                    <td>Last Name: <span id="tlname"></span></td>
+                            </tr>
+                            <tr>
+                                    <td colspan="2">Institute Name: <span id="tinsname"></span></td>
+                                    <td>Batch: <span id="tbatch"></span></td>
+                            </tr>
+                            <tr><td>CN: </td><td><span id="tcn"></span></td></tr>
+                            <tr><td>DBMS: </td><td><span id="tdbms"></span></td></tr>
+                            <tr><td>TCS: </td><td><span id="ttcs"></span></td></tr>
+                            <tr><td>ILOC: </td><td><span id="tiloc"></span></td></tr>
+                            <tr><td>WDL: </td><td><span id="twdl"></span></td></tr>
+                            <tr><td>BCE: </td><td><span id="tbce"></span></td></tr>
+                             
+                            <tr> <td><b> Total : <span id="total"></span></b></td></tr>
+                            <tr> <td> <b>Percentage : <span id="percent"></span></b></td></tr>
+                        <tr> <td> <b>Grade : <span id="grade"></span></b></td></tr>
+                        </table>
+                    </div>
+
+            </article>
+
+
+        </section>
+</main>
+    
+</body>
+</html> 
